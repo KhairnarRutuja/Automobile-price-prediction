@@ -23,12 +23,6 @@ load data in python using pandas library
 ### Domain Analysis
 #### 1. Symboling:
 - Symboling is a numerical representation of the risk associated with a vehicle. It typically ranges from -3 to +3, where negative values indicate a lower risk, and positive values indicate a higher risk. It can be used by insurance companies to determine insurance premiums.
-* Symboling Values:
-"-3": This value indicates that the car is considered to have the highest risk.
-"-2": Similarly, vehicles with a Symboling of -2 are also considered to have a relatively high risk.
-"-1": Cars with a Symboling of -1 still carry an above-average risk, although it's slightly lower than those with -2 or -3.
-"0": A Symboling of 0 indicates a vehicle with an average level of risk. It's considered a neutral point in terms of insurance risk.
-"+1, +2, +3": These positive values indicate cars with progressively lower risk. A Symboling of +3 corresponds to vehicles with the lowest perceived risk.
 
 #### 2. Normalized-Losses:
 Normalized-Losses is a feature in automobile dataset that represents normalized insurance losses in monetary terms. This feature provides insights into the average loss payment per insured vehicle year, normalized for different car models.
